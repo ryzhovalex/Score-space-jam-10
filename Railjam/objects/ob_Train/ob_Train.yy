@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sp_Train",
-    "path": "sprites/sp_Train/sp_Train.yy",
+    "name": "sp_TrainAlpha",
+    "path": "sprites/sp_TrainAlpha/sp_TrainAlpha.yy",
   },
   "solid": false,
   "visible": true,

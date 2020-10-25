@@ -2,6 +2,10 @@
 
 spd = 4
 
+//task which this train makes
+task_number = 0
+target_station_type = 0
+
 //true == train turned recently
 _turned = false
 
@@ -19,7 +23,7 @@ function move() {
 	x += _x
 	y += _y	
 }
-
+	
 
 /// @function           direction_logic()	
 /// @description        Checks for railways and does appropriate actions. Void.
@@ -208,4 +212,41 @@ function _calculate_point_correction(turn) {
 	
 	return _point_correction
 }
+
+
+/// @function           _collision_handler()	
+/// @description        Checks for all probably collisions. Void.
+function _collision_handler() {	
+	//if colliding another train
+	var	_collide = instance_place(x, y, ob_Train)
+	if (_collide != self and _collide != noone) {
+		GAME_CONTROLLER.game_over("collide")
+	}
+	
+	//if reaching station
+	_collide = instance_place(x, y, ob_Station) 
+	if (_collide != noone) {
+		_reach_station(_collide)
+	}
+	
+	//if leaving room
+	if (x <= 0 or x >= room_width or y <= 0 or y >= room_height) {
+		instance_destroy(self)	
+	}
+}
+
+
+/// @function           _reach_station(station)	
+/// @description        Enging task and destroy train. Void.
+function _reach_station(station) {	
+	if (station.instance_type == target_station_type) {
+		TASK_CONTROLLER.end_task(task_number, true)
+	} else {
+		TASK_CONTROLLER.end_task(task_number, false)
+	}
+	instance_destroy(self)
+}
+
+
+///
 
