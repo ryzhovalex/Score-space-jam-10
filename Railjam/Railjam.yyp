@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"sp_CrosswayCActive","path":"sprites/sp_CrosswayCActive/sp_CrosswayCActive.yy",},"order":5,},
     {"id":{"name":"ob_Train","path":"objects/ob_Train/ob_Train.yy",},"order":1,},
+    {"id":{"name":"bckg_gameMain","path":"sprites/bckg_gameMain/bckg_gameMain.yy",},"order":1,},
     {"id":{"name":"GAME_CONTROLLER","path":"objects/GAME_CONTROLLER/GAME_CONTROLLER.yy",},"order":0,},
     {"id":{"name":"ob_Crossway","path":"objects/ob_Crossway/ob_Crossway.yy",},"order":0,},
     {"id":{"name":"sp_TestBack","path":"sprites/sp_TestBack/sp_TestBack.yy",},"order":1,},
@@ -9,14 +10,19 @@
     {"id":{"name":"sp_CrosswayCMirror","path":"sprites/sp_CrosswayCMirror/sp_CrosswayCMirror.yy",},"order":2,},
     {"id":{"name":"sp_LogicButton","path":"sprites/sp_LogicButton/sp_LogicButton.yy",},"order":4,},
     {"id":{"name":"sp_CrosswayA","path":"sprites/sp_CrosswayA/sp_CrosswayA.yy",},"order":3,},
+    {"id":{"name":"rm_menuMain","path":"rooms/rm_menuMain/rm_menuMain.yy",},"order":1,},
     {"id":{"name":"sp_CrosswayB","path":"sprites/sp_CrosswayB/sp_CrosswayB.yy",},"order":0,},
     {"id":{"name":"sp_RailDirection","path":"sprites/sp_RailDirection/sp_RailDirection.yy",},"order":3,},
     {"id":{"name":"GAME_CONFIG","path":"scripts/GAME_CONFIG/GAME_CONFIG.yy",},"order":0,},
     {"id":{"name":"sp_Train","path":"sprites/sp_Train/sp_Train.yy",},"order":2,},
     {"id":{"name":"ob_CrosswayC","path":"objects/ob_CrosswayC/ob_CrosswayC.yy",},"order":2,},
     {"id":{"name":"ob_CrosswayB","path":"objects/ob_CrosswayB/ob_CrosswayB.yy",},"order":1,},
+    {"id":{"name":"ob_buttonExit","path":"objects/ob_buttonExit/ob_buttonExit.yy",},"order":1,},
+    {"id":{"name":"sp_squareRed","path":"sprites/sp_squareRed/sp_squareRed.yy",},"order":6,},
+    {"id":{"name":"rm_gameMain","path":"rooms/rm_gameMain/rm_gameMain.yy",},"order":2,},
     {"id":{"name":"ob_LogicButton","path":"objects/ob_LogicButton/ob_LogicButton.yy",},"order":0,},
     {"id":{"name":"sp_CrosswayC","path":"sprites/sp_CrosswayC/sp_CrosswayC.yy",},"order":1,},
+    {"id":{"name":"bckg_menuMain","path":"sprites/bckg_menuMain/bckg_menuMain.yy",},"order":0,},
     {"id":{"name":"sp_CrosswayBActive","path":"sprites/sp_CrosswayBActive/sp_CrosswayBActive.yy",},"order":4,},
     {"id":{"name":"sp_LogicButtonActive","path":"sprites/sp_LogicButtonActive/sp_LogicButtonActive.yy",},"order":5,},
     {"id":{"name":"sp_CrosswayCMirrorActive","path":"sprites/sp_CrosswayCMirrorActive/sp_CrosswayCMirrorActive.yy",},"order":6,},
@@ -24,6 +30,7 @@
     {"id":{"name":"debug","path":"scripts/debug/debug.yy",},"order":0,},
     {"id":{"name":"ob_CrosswayCMirror","path":"objects/ob_CrosswayCMirror/ob_CrosswayCMirror.yy",},"order":3,},
     {"id":{"name":"sp_Rail","path":"sprites/sp_Rail/sp_Rail.yy",},"order":0,},
+    {"id":{"name":"ob_buttonGoto","path":"objects/ob_buttonGoto/ob_buttonGoto.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -40,6 +47,8 @@
     "children": [],
   },
   "RoomOrder": [
+    {"name":"rm_menuMain","path":"rooms/rm_menuMain/rm_menuMain.yy",},
+    {"name":"rm_gameMain","path":"rooms/rm_gameMain/rm_gameMain.yy",},
     {"name":"Room1","path":"rooms/Room1/Room1.yy",},
   ],
   "Folders": [
@@ -65,6 +74,8 @@
     {"folderPath":"folders/Objects/logistic.yy","order":3,"resourceVersion":"1.0","name":"logistic","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/tools.yy","order":1,"resourceVersion":"1.0","name":"tools","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/interface/buttons.yy","order":0,"resourceVersion":"1.0","name":"buttons","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Backgrounds.yy","order":15,"resourceVersion":"1.0","name":"Backgrounds","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Menu Objects.yy","order":16,"resourceVersion":"1.0","name":"Menu Objects","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
