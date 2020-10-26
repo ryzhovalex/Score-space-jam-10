@@ -108,6 +108,8 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_RailDirection","path":"objects/ob_RailDirection/ob_RailDirection.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":90.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":216.0,"y":408.0,"resourceVersion":"1.0","name":"inst_78D591EF","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_RailDirection","path":"objects/ob_RailDirection/ob_RailDirection.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-90.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":648.0,"y":24.0,"resourceVersion":"1.0","name":"inst_779BE9C6","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ob_RailDirection","path":"objects/ob_RailDirection/ob_RailDirection.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":90.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":696.0,"y":360.0,"resourceVersion":"1.0","name":"inst_19612B2C","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"ob_TrainOutline","path":"objects/ob_TrainOutline/ob_TrainOutline.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.75,"scaleY":0.25,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":193.0,"y":418.0,"resourceVersion":"1.0","name":"inst_3F0D9589","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"ob_TrainOutline","path":"objects/ob_TrainOutline/ob_TrainOutline.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.734375,"scaleY":0.25,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":369.0,"resourceVersion":"1.0","name":"inst_6FF8C12F","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":24,"gridY":24,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Railroad","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"sp_sign_1","path":"sprites/sp_sign_1/sp_sign_1.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":81.0,"y":216.0,"resourceVersion":"1.0","name":"graphic_32A9B9AC","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -211,6 +213,8 @@
     {"name":"inst_495A87F1","path":"rooms/rm_gameMain/rm_gameMain.yy",},
     {"name":"inst_25DAD7B","path":"rooms/rm_gameMain/rm_gameMain.yy",},
     {"name":"inst_7539800A","path":"rooms/rm_gameMain/rm_gameMain.yy",},
+    {"name":"inst_3F0D9589","path":"rooms/rm_gameMain/rm_gameMain.yy",},
+    {"name":"inst_6FF8C12F","path":"rooms/rm_gameMain/rm_gameMain.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

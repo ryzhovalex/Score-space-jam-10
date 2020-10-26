@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"sp_CrosswayCActive","path":"sprites/sp_CrosswayCActive/sp_CrosswayCActive.yy",},"order":5,},
+    {"id":{"name":"ob_TrainOutline","path":"objects/ob_TrainOutline/ob_TrainOutline.yy",},"order":2,},
     {"id":{"name":"ob_ScoreInterface","path":"objects/ob_ScoreInterface/ob_ScoreInterface.yy",},"order":3,},
     {"id":{"name":"sp_CardContainer","path":"sprites/sp_CardContainer/sp_CardContainer.yy",},"order":6,},
     {"id":{"name":"ob_Train","path":"objects/ob_Train/ob_Train.yy",},"order":1,},
@@ -53,7 +54,7 @@
     {"id":{"name":"fo_card_content","path":"fonts/fo_card_content/fo_card_content.yy",},"order":0,},
     {"id":{"name":"ob_TrainSpawn","path":"objects/ob_TrainSpawn/ob_TrainSpawn.yy",},"order":4,},
     {"id":{"name":"ob_CardBack","path":"objects/ob_CardBack/ob_CardBack.yy",},"order":2,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -70,7 +71,7 @@
   },
   "RoomOrder": [
     {"name":"rm_gameMain","path":"rooms/rm_gameMain/rm_gameMain.yy",},
-    {"name":"Room1","path":"rooms/Room1/Room1.yy",},
+    {"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},
     {"name":"rm_menuMain","path":"rooms/rm_menuMain/rm_menuMain.yy",},
   ],
   "Folders": [

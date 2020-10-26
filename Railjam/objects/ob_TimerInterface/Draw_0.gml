@@ -2,8 +2,8 @@
 
 if (TIMER.timer_proceed) {
 	_timer_seconds = TIMER.timer_seconds
-	_minutes = round(_timer_seconds / 60)
-	_seconds = round(_timer_seconds % 60)
+	_minutes = floor(_timer_seconds / 60)
+	_seconds = floor(_timer_seconds % 60)
 	_minute_pref = ""
 	_second_pref = ""
 

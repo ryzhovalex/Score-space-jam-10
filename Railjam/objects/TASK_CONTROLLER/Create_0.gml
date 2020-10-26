@@ -4,7 +4,7 @@
 tasks_scores = []
 
 //task give cooldown time
-task_cooldown = 5
+task_cooldown = 7
 
 _tasking_proceed = false // if true == auto tasking enabled
 

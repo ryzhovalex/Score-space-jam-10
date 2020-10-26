@@ -1,6 +1,8 @@
 /// @description <-->
 
-spd = 1.5
+spd = 1
+
+_started = false //check if train collided with starting direction arrow
 
 //task which this train makes
 task_number = 0
@@ -32,10 +34,11 @@ function direction_logic() {
 	var _crossA = instance_place(x, y, ob_CrosswayA)
 	var _crossB = instance_place(x, y, ob_CrosswayB)
 	var _crossC = instance_place(x, y, ob_CrosswayC)
-	var _crossC_mirror = instance_place(x, y, ob_CrosswayCMirror)
+	var _crossC_mirror = instance_place(x, y, ob_CrosswayCMirror)	
 		
 	if (!_turned) {		
-		if (_rail_direction != noone) {
+		if (_rail_direction != noone and !_started) { //if not collided before
+			_started = true
 			_turn_timer()
 			direction = _rail_direction.direction	
 		}	
@@ -229,10 +232,16 @@ function _collision_handler() {
 		_reach_station(_collide)
 	}
 	
+	//if reaching outline
+	var _collide = instance_place(x, y, ob_TrainOutline)
+	if (_collide != noone) {
+		instance_destroy(self)
+	}
+	
 	//if leaving room
 	if (x <= 0 or x >= room_width or y <= 0 or y >= room_height) {
 		instance_destroy(self)	
-	}
+	}		
 }
 
 

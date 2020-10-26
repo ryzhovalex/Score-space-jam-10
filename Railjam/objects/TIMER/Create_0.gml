@@ -1,8 +1,6 @@
 /// @description <-->
 
-timer_minutes = 3 
-
-timer_seconds = timer_minutes * 60 //convert to seconds
+timer_seconds = 300
 timer_proceed = false
 
 /// @function						start_timer()

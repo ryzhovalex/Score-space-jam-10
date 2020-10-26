@@ -1,6 +1,6 @@
 // -> | global game config
 
-global.TITLES = ["UNDER", "THOMAS", "MAX", "BRAVO", "CHARLIE", "GANGBANG", "GINGER", "HOTEL", "WHISKY", "JAMLOVER", 
+global.TITLES = ["UNDER", "THOMAS", "MAX", "BRAVO", "CHARLIE", "GINGER", "HOTEL", "WHISKY", "JAMLOVER", 
 				"KINGSTONE", "JAMIESON", "JOJA", "PAPA", "BANANA", "NACHOS"]
 global.START_POINTS = ["A", "B", "C", "D", "E", "F"]
 
