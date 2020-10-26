@@ -12,7 +12,6 @@ function game_start() {
 	game_procced = true;
 }
 	
-	
 
 /// @function           fullscreen_switch()	
 /// @description        Changing fullscreen mode. Void.
@@ -94,35 +93,6 @@ function game_over(event_name) {
 			break
 	}
 }
-
-
-/// @function						game_pause()
-/// @description					Pause game. Void.
-function game_pause() {
-	if (!pause) {
-		TASK_CONTROLLER.disable_task_manager()
-		game_procced = false;
-		
-		for (var i = 0; i < instance_number(ob_Train); i++) {
-			var _train = instance_find(ob_Train, i)
-			_train.spd = 0;
-		}
-		
-		pause = true;
-	}
-	else {
-		TASK_CONTROLLER.enable_task_manager()
-		game_procced = true;
-		
-		for (var i = 0; i < instance_number(ob_Train); i++) {
-			var _train = instance_find(ob_Train, i)
-			_train.spd = _train.spd_origin + _train.spd_mod
-		}
-		
-		pause = false;
-	}
-} 
-
 ///
 
 
