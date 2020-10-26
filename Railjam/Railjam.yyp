@@ -9,6 +9,7 @@
     {"id":{"name":"ob_Crossway","path":"objects/ob_Crossway/ob_Crossway.yy",},"order":0,},
     {"id":{"name":"sp_TestBack","path":"sprites/sp_TestBack/sp_TestBack.yy",},"order":1,},
     {"id":{"name":"sp_TrainSpawn","path":"sprites/sp_TrainSpawn/sp_TrainSpawn.yy",},"order":10,},
+    {"id":{"name":"fo_score","path":"fonts/fo_score/fo_score.yy",},"order":2,},
     {"id":{"name":"sp_StationBeta","path":"sprites/sp_StationBeta/sp_StationBeta.yy",},"order":12,},
     {"id":{"name":"SECOND_SCREEN","path":"objects/SECOND_SCREEN/SECOND_SCREEN.yy",},"order":1,},
     {"id":{"name":"ob_CrosswayA","path":"objects/ob_CrosswayA/ob_CrosswayA.yy",},"order":4,},

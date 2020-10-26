@@ -8,7 +8,7 @@ card_height = 96
 
 MAX_CARDS = 3 //number of card that container can contain
 
-content_padding_bot = 10
+content_padding_bot = 6
 
 cards = [] //cards inside the container
 for (var i = 0; i < MAX_CARDS; i++) {
