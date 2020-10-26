@@ -1,6 +1,8 @@
 /// @description <-->
 
-spd = 1
+spd_origin = 1
+spd_mod = choose(0, 0.1, 0.2, 0.3, 0.4, 0.5);
+spd = spd_origin + spd_mod;
 
 _started = false //check if train collided with starting direction arrow
 
@@ -221,7 +223,11 @@ function _calculate_point_correction(turn) {
 /// @description        Checks for all probably collisions. Void.
 function _collision_handler() {	
 	//if colliding another train
-	var	_collide = instance_place(x, y, ob_Train)
+	if (direction == 0 || direction == 180)
+		var _collide = collision_rectangle(x-30, y-22, x+30, y+22, ob_Train, true, true);
+	else
+		var _collide = collision_rectangle(x-22, y-30, x+22, y+30, ob_Train, true, true);
+		
 	if (_collide != self and _collide != noone) {
 		GAME_CONTROLLER.game_over("collide")
 	}

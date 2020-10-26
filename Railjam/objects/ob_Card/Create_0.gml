@@ -13,9 +13,9 @@ start_point = ""
 end_point = 0 // 0 == circle, 1 == square
 score_value = ""
 
-_start_wrapper = "Road "
-_end_wrapper = "St. "
-_separator = "-->"
+_start_wrapper = ""
+_end_wrapper = "   "
+_separator = "->"
 
 /// @function           set_style()
 /// @description        Setting style. Void.
@@ -28,7 +28,7 @@ function set_style() {
 	_margin_bot = 25
 	_line_space = 35
 	_separator_padding_leftright = 70
-	_figure_size = 10
+	_figure_size = 16
 
 	//coords
 	_title_pos = [x + self_width / 2 - _margin_left * 6, y + _margin_top]
@@ -55,13 +55,17 @@ function _draw_init() {
 	draw_set_font(fo_card_content)
 	
 	draw_set_color(c_red)
-	draw_text(_title_pos[0], _title_pos[1], title)
+	draw_text(_title_pos[0] - 16, _title_pos[1] - 1, title)
 	
 	draw_set_color(c_white)
 	draw_text(_start_point_pos[0], _start_point_pos[1], _start_wrapper)
-	draw_text(_start_point_pos[0] + 55, _start_point_pos[1], start_point)
-	draw_text(_separator_pos[0], _separator_pos[1], _separator)	
-	draw_text(_end_point_pos[0], _end_point_pos[1], _end_wrapper)
+	
+	draw_set_font(fo_card_sign)
+	draw_text(_start_point_pos[0] + 24, _start_point_pos[1] - 8, start_point)
+	draw_text(_separator_pos[0], _separator_pos[1] - 8, _separator)	
+	
+	draw_set_font(fo_card_content)
+	draw_text(_end_point_pos[0] + 10, _end_point_pos[1] - 4, _end_wrapper)
 	
 	if (end_point == 0) {
 		draw_set_color(c_green)
@@ -69,10 +73,10 @@ function _draw_init() {
 	} else {
 		draw_set_color(c_yellow)
 		draw_rectangle	(
-						_figure_x - _square_pos_correction, 
-						_figure_y - _square_pos_correction, 
-						_figure_x + _figure_size * 1.4 - _square_pos_correction, 
-						_figure_y + _figure_size * 1.4 - _square_pos_correction, false
+						_figure_x - _square_pos_correction - 5, 
+						_figure_y - _square_pos_correction - 10, 
+						_figure_x + _figure_size * 1.5 - _square_pos_correction + 5, 
+						_figure_y + _figure_size * 1.5 - _square_pos_correction - 5, false
 						)   	
 	}
 	

@@ -1,11 +1,15 @@
 /// @description <-->
 
+game_procced = false;
+pause = false;
+global.player_score = 0;
 
 /// @function           game_start()	
 /// @description        Order to start game. Void.
 function game_start() {
 	TASK_CONTROLLER.enable_task_manager()
 	TIMER.start_timer()	
+	game_procced = true;
 }
 	
 	
@@ -51,7 +55,6 @@ function button_handler(button_number) {
 /// @description					Creates train and set his task. Void.
 function initialize_train(start_point, end_point, score_value) {
 	var _spawn = _find_target(ob_TrainSpawn, start_point)
-	var _station = _find_target(ob_Station, end_point)
 	
 	var _train = instance_create_depth(_spawn.x, _spawn.y, -1, ob_Train)
 	
@@ -78,12 +81,12 @@ function _find_target(object, point) {
 function game_over(event_name) {
 	switch (event_name) {
 		case "collide":
-			show_message("Trains collided")
-			game_end()
+			show_message("Trains crushed!")
+			room_goto(rm_menuScore)
 			break
 		case "timer":
-			show_message("Timer's up")
-			game_end()
+			show_message("Timer's up!")
+			room_goto(rm_menuScore)
 			break
 		default:
 			show_message("Game end")
@@ -93,6 +96,33 @@ function game_over(event_name) {
 }
 
 
+/// @function						game_pause()
+/// @description					Pause game. Void.
+function game_pause() {
+	if (!pause) {
+		TASK_CONTROLLER.disable_task_manager()
+		game_procced = false;
+		
+		for (var i = 0; i < instance_number(ob_Train); i++) {
+			var _train = instance_find(ob_Train, i)
+			_train.spd = 0;
+		}
+		
+		pause = true;
+	}
+	else {
+		TASK_CONTROLLER.enable_task_manager()
+		game_procced = true;
+		
+		for (var i = 0; i < instance_number(ob_Train); i++) {
+			var _train = instance_find(ob_Train, i)
+			_train.spd = _train.spd_origin + _train.spd_mod
+		}
+		
+		pause = false;
+	}
+} 
+
 ///
-game_start()
+
 

@@ -1,6 +1,6 @@
 /// @description <-->
 
-timer_seconds = 300
+timer_seconds = 120
 timer_proceed = false
 
 /// @function						start_timer()
