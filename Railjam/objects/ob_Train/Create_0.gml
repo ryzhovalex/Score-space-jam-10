@@ -229,6 +229,7 @@ function _collision_handler() {
 		var _collide = collision_rectangle(x-22, y-30, x+22, y+30, ob_Train, true, true);
 		
 	if (_collide != self and _collide != noone) {
+		audio_play_sound(sn_trainCrash, 1, false);
 		GAME_CONTROLLER.game_over("collide")
 	}
 	

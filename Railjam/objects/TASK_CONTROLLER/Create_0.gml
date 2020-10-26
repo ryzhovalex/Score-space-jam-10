@@ -4,10 +4,10 @@
 tasks_scores = []
 
 //task give cooldown time
-task_cooldown = 8
-cooldown_min = 5
+task_cooldown = 7
+cooldown_min = 3
 cooldown_dif = 1
-cooldown_freq = 8
+cooldown_freq = 4
 
 _tasking_proceed = false // if true == auto tasking enabled
 
@@ -65,8 +65,10 @@ function end_task(task_number, success) {
 	if (success) {
 		TIMER.timer_seconds += 1
 		global.player_score += tasks_scores[task_number]
+		audio_play_sound(sn_scoreInc, 1, false)
 	} else {
-		global.player_score -= 100 //tasks_scores[task_number]
+		global.player_score -= 100
+		audio_play_sound(sn_scoreDec, 1, false)
 	}
 }
 		
