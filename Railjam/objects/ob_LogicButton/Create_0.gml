@@ -1,5 +1,9 @@
 /// @description <-->
 
+// Ini sprite
+image_index = logic_number;
+image_speed = 0;
+
 key = string(logic_number)
 
 _pressed = false
@@ -28,9 +32,9 @@ function _change_press_status() {
 /// @description			Changing sprite index of button according to status. Void.
 function _change_sprite() {
 	if (!_pressed) {
-		sprite_index = sp_LogicButton
+		//sprite_index = sp_LogicButton
 	} else {
-		sprite_index = sp_LogicButtonActive
+		//sprite_index = sp_LogicButtonActive
 	}
 }
 

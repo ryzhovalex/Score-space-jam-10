@@ -24,14 +24,16 @@
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"ob_LogicButton","path":"objects/ob_LogicButton/ob_LogicButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"ob_LogicButton","path":"objects/ob_LogicButton/ob_LogicButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"parent":{"name":"ob_LogicButton","path":"objects/ob_LogicButton/ob_LogicButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":6,"collisionObjectId":null,"parent":{"name":"ob_LogicButton","path":"objects/ob_LogicButton/ob_LogicButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":56,"eventType":6,"collisionObjectId":null,"parent":{"name":"ob_LogicButton","path":"objects/ob_LogicButton/ob_LogicButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
-    {"varType":1,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"logic_number","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":1,"value":"0","rangeEnabled":true,"rangeMin":0.0,"rangeMax":2.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"logic_number","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {
     "name": "buttons",
-    "path": "folders/Objects/interface/buttons.yy",
+    "path": "folders/Objects/ui/buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_LogicButton",

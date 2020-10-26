@@ -24,9 +24,9 @@
   "gridX": 16,
   "gridY": 16,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bfc86eef-178a-482c-9258-36494fcf9e03","path":"sprites/sp_CrosswayA/sp_CrosswayA.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bfc86eef-178a-482c-9258-36494fcf9e03","path":"sprites/sp_CrosswayA/sp_CrosswayA.yy",},"LayerId":{"name":"ac6a37e2-d51b-42a9-8ff6-8dfca81a9bd7","path":"sprites/sp_CrosswayA/sp_CrosswayA.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_CrosswayA","path":"sprites/sp_CrosswayA/sp_CrosswayA.yy",},"resourceVersion":"1.0","name":"bfc86eef-178a-482c-9258-36494fcf9e03","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2a60bc80-00ae-42fc-bebe-f5306ba1794e","path":"sprites/sp_CrosswayA/sp_CrosswayA.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2a60bc80-00ae-42fc-bebe-f5306ba1794e","path":"sprites/sp_CrosswayA/sp_CrosswayA.yy",},"LayerId":{"name":"64f371af-705a-439c-b6f4-aa07a13e4fb7","path":"sprites/sp_CrosswayA/sp_CrosswayA.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_CrosswayA","path":"sprites/sp_CrosswayA/sp_CrosswayA.yy",},"resourceVersion":"1.0","name":"2a60bc80-00ae-42fc-bebe-f5306ba1794e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sp_CrosswayA","path":"sprites/sp_CrosswayA/sp_CrosswayA.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a85807e8-09ee-408a-b419-68e78d629c41","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bfc86eef-178a-482c-9258-36494fcf9e03","path":"sprites/sp_CrosswayA/sp_CrosswayA.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9e06f8f5-0e45-4f9c-a3af-f32a8f08a891","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2a60bc80-00ae-42fc-bebe-f5306ba1794e","path":"sprites/sp_CrosswayA/sp_CrosswayA.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ac6a37e2-d51b-42a9-8ff6-8dfca81a9bd7","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"64f371af-705a-439c-b6f4-aa07a13e4fb7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "crossways",
