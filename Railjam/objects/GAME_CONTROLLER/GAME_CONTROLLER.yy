@@ -21,6 +21,8 @@
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"GAME_CONTROLLER","path":"objects/GAME_CONTROLLER/GAME_CONTROLLER.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":112,"eventType":10,"collisionObjectId":null,"parent":{"name":"GAME_CONTROLLER","path":"objects/GAME_CONTROLLER/GAME_CONTROLLER.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":27,"eventType":5,"collisionObjectId":null,"parent":{"name":"GAME_CONTROLLER","path":"objects/GAME_CONTROLLER/GAME_CONTROLLER.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"GAME_CONTROLLER","path":"objects/GAME_CONTROLLER/GAME_CONTROLLER.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"GAME_CONTROLLER","path":"objects/GAME_CONTROLLER/GAME_CONTROLLER.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

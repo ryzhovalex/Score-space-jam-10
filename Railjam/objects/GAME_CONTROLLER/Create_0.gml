@@ -3,6 +3,8 @@
 game_procced = false;
 pause = false;
 global.player_score = 0;
+gameOver = -1;
+depth = -100
 
 /// @function           game_start()	
 /// @description        Order to start game. Void.
@@ -80,6 +82,34 @@ function _find_target(object, point) {
 function game_over(event_name) {
 	switch (event_name) {
 		case "collide":
+			var lay_id = layer_get_id("Background");
+			var back_id = layer_background_get_id(lay_id);
+			layer_background_sprite(back_id, bckg_fakeScreen);
+			instance_deactivate_all(true)
+			gameOver = 0
+			alarm[0] = room_speed * 3;
+			break
+			
+		case "timer":
+			var lay_id = layer_get_id("Background");
+			var back_id = layer_background_get_id(lay_id);
+			layer_background_sprite(back_id, bckg_fakeScreen);
+			instance_deactivate_all(true)
+			gameOver = 1
+			alarm[0] = room_speed * 3;
+			break
+			
+		default:
+			show_message("Game end")
+			game_end()
+			break
+	}
+}
+///
+
+/*
+switch (event_name) {
+		case "collide":
 			show_message("Trains crushed!")
 			room_goto(rm_menuScore)
 			break
@@ -91,8 +121,4 @@ function game_over(event_name) {
 			show_message("Game end")
 			game_end()
 			break
-	}
-}
-///
-
-
+			*/
