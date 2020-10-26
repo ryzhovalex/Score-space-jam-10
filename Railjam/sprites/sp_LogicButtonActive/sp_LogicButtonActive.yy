@@ -14,8 +14,8 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 70,
+  "height": 70,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"13f8b3bb-fbde-4232-8f99-134fb4e26291","path":"sprites/sp_LogicButtonActive/sp_LogicButtonActive.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"13f8b3bb-fbde-4232-8f99-134fb4e26291","path":"sprites/sp_LogicButtonActive/sp_LogicButtonActive.yy",},"LayerId":{"name":"21285623-34c0-45ec-aa5d-bc9aa1cd3030","path":"sprites/sp_LogicButtonActive/sp_LogicButtonActive.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_LogicButtonActive","path":"sprites/sp_LogicButtonActive/sp_LogicButtonActive.yy",},"resourceVersion":"1.0","name":"13f8b3bb-fbde-4232-8f99-134fb4e26291","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"04b9d89d-67ff-4d2d-bc7e-604363b12e9d","path":"sprites/sp_LogicButtonActive/sp_LogicButtonActive.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"04b9d89d-67ff-4d2d-bc7e-604363b12e9d","path":"sprites/sp_LogicButtonActive/sp_LogicButtonActive.yy",},"LayerId":{"name":"c0e9fe4a-48e2-411f-96fe-d1abc3dca25a","path":"sprites/sp_LogicButtonActive/sp_LogicButtonActive.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_LogicButtonActive","path":"sprites/sp_LogicButtonActive/sp_LogicButtonActive.yy",},"resourceVersion":"1.0","name":"04b9d89d-67ff-4d2d-bc7e-604363b12e9d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f9bc8c17-fae9-4638-83c2-5a1e0813192d","path":"sprites/sp_LogicButtonActive/sp_LogicButtonActive.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f9bc8c17-fae9-4638-83c2-5a1e0813192d","path":"sprites/sp_LogicButtonActive/sp_LogicButtonActive.yy",},"LayerId":{"name":"c0e9fe4a-48e2-411f-96fe-d1abc3dca25a","path":"sprites/sp_LogicButtonActive/sp_LogicButtonActive.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_LogicButtonActive","path":"sprites/sp_LogicButtonActive/sp_LogicButtonActive.yy",},"resourceVersion":"1.0","name":"f9bc8c17-fae9-4638-83c2-5a1e0813192d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"79230035-d6a4-42fc-ac73-d3f0cb6da82d","path":"sprites/sp_LogicButtonActive/sp_LogicButtonActive.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"79230035-d6a4-42fc-ac73-d3f0cb6da82d","path":"sprites/sp_LogicButtonActive/sp_LogicButtonActive.yy",},"LayerId":{"name":"c0e9fe4a-48e2-411f-96fe-d1abc3dca25a","path":"sprites/sp_LogicButtonActive/sp_LogicButtonActive.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sp_LogicButtonActive","path":"sprites/sp_LogicButtonActive/sp_LogicButtonActive.yy",},"resourceVersion":"1.0","name":"79230035-d6a4-42fc-ac73-d3f0cb6da82d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sp_LogicButtonActive","path":"sprites/sp_LogicButtonActive/sp_LogicButtonActive.yy",},
@@ -36,12 +42,14 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 3.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"00dbe1dc-22ac-4f50-8ce4-a397976a9cbc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"13f8b3bb-fbde-4232-8f99-134fb4e26291","path":"sprites/sp_LogicButtonActive/sp_LogicButtonActive.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"11bbf74b-3923-4d0a-85a0-c6a2a20c3d8c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"04b9d89d-67ff-4d2d-bc7e-604363b12e9d","path":"sprites/sp_LogicButtonActive/sp_LogicButtonActive.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"56e9ee73-2635-4f54-9119-70095981ea1a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f9bc8c17-fae9-4638-83c2-5a1e0813192d","path":"sprites/sp_LogicButtonActive/sp_LogicButtonActive.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"93d2590b-6f28-4edd-b59c-2d9ca88228e9","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"79230035-d6a4-42fc-ac73-d3f0cb6da82d","path":"sprites/sp_LogicButtonActive/sp_LogicButtonActive.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,8 +62,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 32,
-    "yorigin": 32,
+    "xorigin": 35,
+    "yorigin": 35,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sp_LogicButtonActive","path":"sprites/sp_LogicButtonActive/sp_LogicButtonActive.yy",},
@@ -65,7 +73,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"21285623-34c0-45ec-aa5d-bc9aa1cd3030","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c0e9fe4a-48e2-411f-96fe-d1abc3dca25a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",

@@ -1,6 +1,6 @@
 /// @description <-->
 
-spd = 4
+spd = 1.5
 
 //task which this train makes
 task_number = 0

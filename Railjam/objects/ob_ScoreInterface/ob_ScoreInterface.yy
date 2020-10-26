@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "interface",
-    "path": "folders/Objects/interface.yy",
+    "name": "ui",
+    "path": "folders/Objects/ui.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_ScoreInterface",

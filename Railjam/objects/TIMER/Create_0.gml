@@ -1,6 +1,6 @@
 /// @description <-->
 
-timer_minutes = 0.1 
+timer_minutes = 3 
 
 timer_seconds = timer_minutes * 60 //convert to seconds
 timer_proceed = false

@@ -4,7 +4,7 @@
     "path": "sprites/sp_CardContainer/sp_CardContainer.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "cards",
-    "path": "folders/Objects/interface/cards.yy",
+    "path": "folders/Objects/ui/cards.yy",
   },
   "resourceVersion": "1.0",
   "name": "CARDS_CONTAINER",

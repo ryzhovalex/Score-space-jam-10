@@ -27,7 +27,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "cards",
-    "path": "folders/Objects/interface/cards.yy",
+    "path": "folders/Objects/ui/cards.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_CardBack",

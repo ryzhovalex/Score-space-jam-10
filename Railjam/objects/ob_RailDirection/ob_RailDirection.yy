@@ -4,7 +4,7 @@
     "path": "sprites/sp_RailDirection/sp_RailDirection.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
