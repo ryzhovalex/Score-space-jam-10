@@ -88,6 +88,12 @@ function game_over(event_name) {
 			instance_deactivate_all(true)
 			gameOver = 0
 			alarm[0] = room_speed * 3;
+			if (global.player_score > global.player_highscore) {
+				ini_open("jam_on_rails.sav");
+				ini_write_real("player", "highscore", global.player_score);
+				ini_close();
+			}
+
 			break
 			
 		case "timer":
@@ -97,6 +103,11 @@ function game_over(event_name) {
 			instance_deactivate_all(true)
 			gameOver = 1
 			alarm[0] = room_speed * 3;
+			if (global.player_score > global.player_highscore) {
+				ini_open("jam_on_rails.sav");
+				ini_write_real("player", "highscore", global.player_score);
+				ini_close();
+			}
 			break
 			
 		default:
@@ -107,18 +118,3 @@ function game_over(event_name) {
 }
 ///
 
-/*
-switch (event_name) {
-		case "collide":
-			show_message("Trains crushed!")
-			room_goto(rm_menuScore)
-			break
-		case "timer":
-			show_message("Timer's up!")
-			room_goto(rm_menuScore)
-			break
-		default:
-			show_message("Game end")
-			game_end()
-			break
-			*/

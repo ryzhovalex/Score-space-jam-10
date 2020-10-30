@@ -1,7 +1,7 @@
 {
   "option_windows_display_name": "Jam on Rails",
   "option_windows_executable_name": "${project_name}.exe",
-  "option_windows_version": "1.0.0.0",
+  "option_windows_version": "0.1.0.0",
   "option_windows_company_info": " JetPants",
   "option_windows_product_info": "Jam on Rails on Score Space #10",
   "option_windows_copyright_info": "Score Space #10",
